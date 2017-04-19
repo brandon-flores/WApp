@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/vid_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar" />
+
+    <Button
+        android:id="@+id/addVid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/vid_list"
+        android:layout_alignParentEnd="true"
+        android:text="Add Video" />
+
+    <EditText
+        android:id="@+id/vname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/addVid"
+        android:layout_alignBottom="@+id/addVid"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/addVid"
+        android:hint="Video Title"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="20sp" />
+</RelativeLayout>

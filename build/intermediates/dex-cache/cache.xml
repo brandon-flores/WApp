@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\School\CMSC\CMSC 127\WApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61dc83ab7a7c5e6041be40578b0247303536442f">
+        <dex dex="D:\School\CMSC\CMSC 127\WApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a15d817fd12a10dcbf4f6991455423b609e468ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\School\CMSC\CMSC 127\WApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\School\CMSC\CMSC 127\WApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_caa815494ddfc83a24a442342de48fd960937fc9\classes.dex" />
+    </item>
+
+</items>
